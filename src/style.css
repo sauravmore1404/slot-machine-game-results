@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(219, 216, 216);
+}
+
+.rapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  font-weight: bold;
+  font-size: large;
+  width: 60%;
+  height: 50%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: black;
+  color: aliceblue;
+  padding: 4px 0;
+  padding-top: 10px;
+}
+.heading {
+  width: 60%;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 2px 0;
+  padding-bottom: 4px;
+}
